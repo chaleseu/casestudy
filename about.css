@@ -1,0 +1,112 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+background-color: black;
+}
+
+.navbar {
+  background-color: lightseagreen;
+  padding: 10px 20px;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around; 
+}
+
+.navbar li {
+  margin: 0 10px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-family: monospace;
+  font-size: 25px;
+  padding: 8px 12px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: cyan;
+  color: black;
+}
+
+.para{
+  font-family: monospace;
+  font-weight: 30px;
+ 
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+background: white;
+width: 250px;
+height: 500px;
+margin: 10px;
+border-radius: 10px;
+text-align: center;
+}
+.card h2{
+  padding: 20px;
+}
+
+.card-image{
+background-color: red;
+height: 150px;
+margin-bottom: 15px;
+background-size: cover;
+border-radius: 10px;
+}
+.card:hover{
+  background-color: black;
+ color: white;
+ cursor: pointer;
+ transform: scale(1.03);
+ transition:all is ease;
+}
+
+.card-1{
+  background-image: url('charlesm.jpg');
+}
+
+.card-2{
+  background-image: url('it\ logo.png');
+}
+
+.card-3{
+  background-image: url('exp.jpg');
+}
+
+
+.h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;}
+
+    .footerbottom{
+      text-align: center;
+      color: white;
+          }
+      
+          .footerbottom p {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+           
+            color: white;
+            text-align: center;}
